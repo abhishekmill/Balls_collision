@@ -48,8 +48,8 @@ function Balls({ scale, vec }) {
         .copy(api.current.translation())
         .normalize()
         .multiply({
-          x: -120 * delta * scale,
-          y: -120 * delta * scale,
+          x: -20 * delta * scale,
+          y: -20 * delta * scale,
           z: -120 * delta * scale,
         })
     );
