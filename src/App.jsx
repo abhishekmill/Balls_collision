@@ -4,7 +4,6 @@ import { Environment, Lightformer, Sparkles } from "@react-three/drei";
 import { Physics, RigidBody, BallCollider } from "@react-three/rapier";
 import { useMemo, useRef } from "react";
 import * as THREE from "three";
-import My3DText from "./Text3D";
 
 const count = 50; 
 
